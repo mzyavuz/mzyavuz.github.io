@@ -1,0 +1,37 @@
+title: "Öğrenme Yolculuğum"
+description: "Ağaçlar, bilim insanları, teknolojiler, tefsir ve girişim notları"
+baseurl: ""
+url: "https://mzyavuz.github.io"
+theme: "minimal-mistakes-jekyll"
+gem:
+  - jekyll-feed
+  - jekyll-seo-tag
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+minimal_mistakes_skin: "default"
+navigation:
+  - title: "Ağaçlar"
+    url: "/categories/agaclar/"
+  - title: "Bilim"
+    url: "/categories/bilim/"
+  - title: "Teknoloji"
+    url: "/categories/teknoloji/"
+  - title: "Tefsir"
+    url: "/categories/tefsir/"
+  - title: "Girişim"
+    url: "/categories/girisim/"
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+include:
+  - _pages
+  - _posts
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
