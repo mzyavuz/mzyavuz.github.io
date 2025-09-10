@@ -1,5 +1,5 @@
 ---
 layout: category
-title: "Bilim"
-permalink: /categories/bilim/
+title: "Bilim Adamları"
+permalink: /categories/bilimadamlari/
 ---

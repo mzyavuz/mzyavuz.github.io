@@ -6,9 +6,9 @@ var store = [{
         "teaser": null
       },{
         "title": "Bilim Notları",
-        "excerpt":"Bu yazı bilim kategorisi için örnek bir gönderidir.  ","categories": ["bilim"],
+        "excerpt":"Bu yazı bilim kategorisi için örnek bir gönderidir.  ","categories": ["bilimadamlari"],
         "tags": [],
-        "url": "/bilim/2025/09/10/bilim-sample/",
+        "url": "/bilimadamlari/2025/09/10/bilim-sample/",
         "teaser": null
       },{
         "title": "Girişim Fikirleri",
